@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+
+    <script src="https://kit.fontawesome.com/c0d7cecf11.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="home">Jantara Hennard </a>
+        <ul>
+            <li><a href="./archieve.html">Archive</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+    </header>
+
+    <section class="main-div">
+        
+              <div class="intro">
+                  <p class="intro-content">Hello, world! I’m Jantana Hennard, a designer specializing in 3D designs and interactive experiences. I enjoy creating meaningful narratives through motion graphics and experimenting with new technology to convey stories</p>
+                  <p class="intro-btn"  onclick="copy()" ><i class="fa-sharp fa-solid fa-arrow-right fa-md"></i> <u id="btncpy" onmouseenter="enter()" onmouseleave="leave()" > Get in Touch</u></p>
+              </div>
+    </section>
+
+    
+    <section id="cards" class="cards">
+
+        <div class="card">
+           <a href=""> <img src="https://images.prismic.io/jant/f61d8c7c-0666-4604-afd7-65b68204ffe9_SJK_CS_FRAME.jpg?auto=compress,format" alt="The Color Bath" crossorigin="anonymous" class="project__img preload">
+           </a>
+            <div class="card-content">
+              <h2 class="card-title">Public Spaces</h2>
+              <h3 class="card-heading">THE COLOUR BATH</h3>
+              <p class="card-description" style="margin-top: 180px;">Multimedia content infusing color at Shinjuku station</p>
+            </div>
+          </div>
+            
+        
+
+        <div class="card">
+         
+            <div class="card-content">
+              <h2 class="card-title">Styleframes</h2>
+              <h3 class="card-heading">Flowers studies</h3>
+              <p class="card-description" style="margin-top: 300px;">A digital tribute to botanical art</p>
+            </div>
+            <a href="">
+            <img src="https://images.prismic.io/jant/fbaac30a-8f58-46ca-a4ce-79324c01f403_FLW_CS_FRAME_00000.jpg?auto=compress,format" alt="Flowers studies" crossorigin="anonymous" class="project__img preload">
+            </a>
+        </div>
+
+        <div class="card1">
+            <img src="https://images.prismic.io/jant/3ad2a0e0-28f3-40e7-be9f-1e2f5ed6ea9f_PLX_CS_FRAME.jpg?auto=compress,format" alt="Perplexiplex" crossorigin="anonymous" class="project__img preload">
+            <div class="card-content1">
+              <h3 class="card-title1">Installation</h3>
+              <h2 class="card-heading">Perplexiplex</h2>              
+              <p class="card-description1">A/V performance for the Nuits Sonores festival</p>
+            </div>
+          </div>
+
+          
+          <div class="card" style="margin-top: 100px;">
+            <a href=""> <img src="https://images.prismic.io/jant/3a61f0e7-ecf6-4b34-be9e-3f24fcc784a6_GSP_CS_VIDEO_FRAME_00000.jpg?auto=compress,format" alt="Godspeed" crossorigin="anonymous" class="project__img preload">
+            </a>
+             <div class="card-content">
+               <h2 class="card-title">Live show</h2>
+               <h3 class="card-heading">Godspeed</h3>
+               <p class="card-description" style="margin-top: 280px;">Multimedia content infusing color at Shinjuku station</p>
+             </div>
+           </div>
+             
+         
+ 
+         <div class="card">
+          
+             <div class="card-content">
+               <h2 class="card-title">Styleframes</h2>
+               <h3 class="card-heading">Spectral caustics</h3>
+               <p class="card-description" style="margin-top: 200px;">Experiments with glass shaders and light play</p>
+             </div>
+             <a href="">
+                <img src="https://images.prismic.io/jant/2415b795-29aa-4c9b-add1-f6f1d4d0d461_CST_CS_VIDEO_FRAME.jpg?auto=compress,format" alt="Spectral caustics" crossorigin="anonymous" class="project__img preload">
+             </a>
+         </div>
+ 
+         <div class="card1">
+            <img src="https://images.prismic.io/jant/a133315e-8f14-4fbd-807e-fc205a2e01b6_RND_CS_VIDEO_FRAME+%2800000%29.jpg?auto=compress,format" alt="Explorations" crossorigin="anonymous" class="project__img preload">
+             <div class="card-content1">
+               <h3 class="card-title1">Animations</h3>
+               <h2 class="card-heading">Explorations</h2>              
+               <p class="card-description1">Research and development done at Moment Factory.</p>
+             </div>
+           </div>
+
+           <div class="card" style="margin-top: 100px;">
+            <a href=""> <img src="https://images.prismic.io/jant/3b4e58fd-01f6-4afc-941c-89819913f21c_MCN_CS_VIDEO_FRAME_00000.jpg?auto=compress,format" alt="Mechanical wizardry" crossorigin="anonymous" class="project__img preload">
+            </a>
+             <div class="card-content">
+               <h2 class="card-title">Styleframes</h2>
+               <h3 class="card-heading">Mechanical wizardry</h3>
+               <p class="card-description" style="margin-top: 250px;">Astronomical tables inspired by objects from the wizarding world</p>
+             </div>
+           </div>
+            
+       
+
+
+    </section>
+    <div>
+        <a href="#cards" style="color: #fff;text-decoration: none;position: fixed; right:80px;bottom: 100px;">Scroll to discover  <i class="fa-sharp fa-solid fa-arrow-down fa-fade"></i></i></a>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./scroll.js"></script>
+</body>
+</html>
